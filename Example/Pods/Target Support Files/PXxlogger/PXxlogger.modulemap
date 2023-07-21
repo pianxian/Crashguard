@@ -1,0 +1,6 @@
+framework module PXxlogger {
+  umbrella header "PXxlogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

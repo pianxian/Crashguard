@@ -1,0 +1,23 @@
+PODS:
+  - Crashguard (0.1.0)
+  - PXxlogger (0.1.0)
+
+DEPENDENCIES:
+  - Crashguard (from `../`)
+  - PXxlogger
+
+SPEC REPOS:
+  trunk:
+    - PXxlogger
+
+EXTERNAL SOURCES:
+  Crashguard:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Crashguard: cdc7e22913e110b20a0cefdd5afb2fbd19e099e3
+  PXxlogger: 93c96351bc9a9b8103148d3ff412fa40a900c9ec
+
+PODFILE CHECKSUM: 0e2316008bd905c4a800cbc9abcff527c5c033cb
+
+COCOAPODS: 1.12.0

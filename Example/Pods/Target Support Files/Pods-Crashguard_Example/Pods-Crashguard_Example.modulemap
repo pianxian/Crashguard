@@ -1,0 +1,6 @@
+framework module Pods_Crashguard_Example {
+  umbrella header "Pods-Crashguard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

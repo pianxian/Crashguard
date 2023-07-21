@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="PXViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aq8-RO-AiF">
+                                <rect key="frame" x="148.5" y="120" width="78" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NSDict"/>
+                                <connections>
+                                    <action selector="dic:" destination="whP-gf-Uak" eventType="touchUpInside" id="dxH-Wf-yr1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x4A-k1-uV4">
+                                <rect key="frame" x="143.5" y="205" width="88" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NSArray"/>
+                                <connections>
+                                    <action selector="array:" destination="whP-gf-Uak" eventType="touchUpInside" id="p57-fG-uAz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4V0-wU-y9r">
+                                <rect key="frame" x="146" y="290" width="83" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NSData"/>
+                                <connections>
+                                    <action selector="data:" destination="whP-gf-Uak" eventType="touchUpInside" id="dNL-Ug-oxg"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5nV-ZT-HZi">
+                                <rect key="frame" x="141.5" y="375" width="92" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Dispatch"/>
+                                <connections>
+                                    <action selector="dispatch:" destination="whP-gf-Uak" eventType="touchUpInside" id="x0K-eE-YHo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4S9-Bl-yx6">
+                                <rect key="frame" x="141" y="460" width="93" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="模拟ANR"/>
+                                <connections>
+                                    <action selector="anr:" destination="whP-gf-Uak" eventType="touchUpInside" id="ucr-Wc-f6v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="aq8-RO-AiF" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="DVb-Ul-REO"/>
+                            <constraint firstItem="aq8-RO-AiF" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="100" id="Hiz-iR-Mlc"/>
+                            <constraint firstItem="x4A-k1-uV4" firstAttribute="top" secondItem="aq8-RO-AiF" secondAttribute="bottom" constant="50" id="LEE-rk-qEQ"/>
+                            <constraint firstItem="4S9-Bl-yx6" firstAttribute="centerX" secondItem="TpU-gO-2f1" secondAttribute="centerX" id="QKZ-fI-yNS"/>
+                            <constraint firstItem="4V0-wU-y9r" firstAttribute="top" secondItem="x4A-k1-uV4" secondAttribute="bottom" constant="50" id="XYg-N1-uR2"/>
+                            <constraint firstItem="5nV-ZT-HZi" firstAttribute="top" secondItem="4V0-wU-y9r" secondAttribute="bottom" constant="50" id="Zj8-5a-8tO"/>
+                            <constraint firstItem="x4A-k1-uV4" firstAttribute="centerX" secondItem="aq8-RO-AiF" secondAttribute="centerX" id="gO2-kR-vCm"/>
+                            <constraint firstItem="5nV-ZT-HZi" firstAttribute="centerX" secondItem="aq8-RO-AiF" secondAttribute="centerX" id="gb1-ld-nUI"/>
+                            <constraint firstItem="4S9-Bl-yx6" firstAttribute="top" secondItem="5nV-ZT-HZi" secondAttribute="bottom" constant="50" id="jYX-2u-bj1"/>
+                            <constraint firstItem="4V0-wU-y9r" firstAttribute="centerX" secondItem="aq8-RO-AiF" secondAttribute="centerX" id="ksW-ps-Jab"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="433"/>
+        </scene>
+    </scenes>
+</document>

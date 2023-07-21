@@ -1,0 +1,1264 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020607778067253A68A9C29640AC2CFE /* Pods-Crashguard_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2A8F6C6237F1A0656E93E91365F4606 /* Pods-Crashguard_Tests-dummy.m */; };
+		04843602EE401CDE391BE63D1F20CEB0 /* PXFileLoggerConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = A9E2B95C79765F447A051FB913877C14 /* PXFileLoggerConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0902E57D4FFC76FA4DAF1A1D7DDBE2F5 /* NSData+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DB318B153625A70CC1EED2EE48CB77 /* NSData+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F0BE618800A287CBD6D6C97887536E6 /* NSDictionary+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B55AB541A526DC9876C5A0768E56B70 /* NSDictionary+crashguard.m */; };
+		1717451757FD7033D7DB0F0A22E0760F /* NSObject+DataRaceScaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A77ACC3AAB5361012A64359FBD5CE4F /* NSObject+DataRaceScaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		196E5C1177614570E0D98B93F03D2BA7 /* PXXLoggerFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2171D41E0C7BDB167D697DF80F206DA4 /* PXXLoggerFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19BC797C67102A3AF0B212827D883E73 /* NSMutableArray+DataRaceScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BBBCC38226BB28AC3054374FD0F1D4 /* NSMutableArray+DataRaceScaner.m */; };
+		1F161E83DE84005A0281522F1D42A0A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		204D065C79D0EC28F37D178D17504970 /* NSNumber+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = DDE8C1A95D0DFD5BB78808BF1CF19E29 /* NSNumber+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2152C6EC78A99F40A68B84F87429840A /* NSMutableDictionary+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 487FBAE8D56DB6AACBBEB9337CDC24B4 /* NSMutableDictionary+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		265F888853F3C341AA66294751B93590 /* Pods-Crashguard_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E6C45D23C3D20449FFA079CBB54096 /* Pods-Crashguard_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		29D5935ED6FE714AD9B74EF68C8F6631 /* UIView+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 99F0DC1BFAED55762333126630093804 /* UIView+crashguard.m */; };
+		2E7D0F02A0131442D656357F90AFF30F /* MikiWeakTimer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9D12DDFE6CCE61BC7EEBB1C503754E9 /* MikiWeakTimer.mm */; };
+		30E0E0ED7D84CE0B64E571E4DC9B1023 /* PXxlogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C7E24FA57DA52E8320F05C4421A6AE5 /* PXxlogger-dummy.m */; };
+		324EF5DEC189651D7F97EAC336C5E00C /* NSData+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6B5BDC5C2B6794931F3480E90D3673 /* NSData+crashguard.m */; };
+		33DED706AA123F1528D4ADF96E21AF69 /* Crashguard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B00F85D9C4AA192B4C26D8D38B45F7A /* Crashguard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		349D774236CBC95F4B1F1D1170806C48 /* Pods-Crashguard_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB45E6C91DDB93C1FB0925738AAB8FB /* Pods-Crashguard_Example-dummy.m */; };
+		34DB519F97E2FAB29C49A5F27BE18004 /* MikiBacktraceLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = CEB319511FDFF979CBD867C0B15B6F9A /* MikiBacktraceLogger.m */; };
+		387E50128BC9788DD6D0F36FD1E5BC75 /* NSString+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = C860F691D8FDB6C123AE4824D577854E /* NSString+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		410471CF18F83044AD05202073E1892A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		419229D9BA92F157650387E18D75A51C /* ANRStackDetectUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = E79AB19A4694B6AF35B27D4A1B7D0123 /* ANRStackDetectUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4533D18CDDAD006CAAB2A46708F5511D /* NSMutableArray+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 6538139B733D6C737CAB4266E8D9563F /* NSMutableArray+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB7A1AE94DFB22820B3E1F81089D6BC /* NSURLSession+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 743473407F1B8F21DFB7259863A6674E /* NSURLSession+crashguard.m */; };
+		4D8E1542F669E71CB44D1221569DE5F9 /* MiKiCrashGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 902A187A93BA051974AC0CC2EECB9702 /* MiKiCrashGuard.m */; };
+		4DC8E227269882014D919E5AFFB62DD1 /* MiKiCGMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F9892CFCAFBA4D3A7ACD9E703A46DB16 /* MiKiCGMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5646E5ABC311A11E669BD5E66FDB7292 /* CALayer+CrashGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = B68E53A9AE262707B6041378A86E3403 /* CALayer+CrashGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		57848CDF7E72DF119224BD84E14900B7 /* NSMutableArray+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 57BDE60E43C7FD619B160213F6D31DE6 /* NSMutableArray+crashguard.m */; };
+		5A06D4DEFD288A5A0F3382D77209C2B1 /* NSSet+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B5EAEC468D55260A3506AF22FFE7000 /* NSSet+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E3B9A19825C5F864285B1D7D85B3E2B /* NSJSONSerialization+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = E600645C53B81D53F8E1F9B8DDF31D14 /* NSJSONSerialization+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		605437203A1C74850426F454B4F389E3 /* NSLayoutConstraint+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = A9450A6ED5EBE31E42C5C95BF5A78FD7 /* NSLayoutConstraint+crashguard.m */; };
+		61F62882AF62F028581C82AC26444564 /* PXXLoggerService.h in Headers */ = {isa = PBXBuildFile; fileRef = 014CFDFF74C02C54C47BB1E6AF7BE9AC /* PXXLoggerService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62916169E54C73EF3DBE69F38ABD3ADA /* MikiWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 342BE2A1D53360BB5F6924FAE3554D1A /* MikiWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6334A645C8F13745D8384B83502CBF45 /* Crashguard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ADBCCBD029C3D1A99C1AD4037496C0 /* Crashguard-dummy.m */; };
+		654058FBA132C0799B1AFA6C2A633572 /* MiKiUncaughtExceptionHandler.mm in Sources */ = {isa = PBXBuildFile; fileRef = F922DCAE2C23F70C1ADE0A3B8320EBB5 /* MiKiUncaughtExceptionHandler.mm */; };
+		66EEB21BF05B914DFCED1FB6148D1DC0 /* NSMutableDictionary+DataRaceScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F57B17CD7EE0BB89F4284C35C81CD9 /* NSMutableDictionary+DataRaceScaner.m */; };
+		681B9E6C76C93A87827213F97705246B /* UINavigationController+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 2428966377C40A27DC7FE160E8866B2B /* UINavigationController+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		695EB8EADD9F6BB64A031F10F6F4D72C /* NSMutableDictionary+DataRaceScaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DF0C4CE3B4AFBA6DAEC6390E268E9D /* NSMutableDictionary+DataRaceScaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BE2BF45F465B49F7AFE4339C7BE4854 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6C995188891CD883F7C1EC3BA0A2ACCD /* UIView+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 84F66281C34D1DA176F188D69D7ADA1C /* UIView+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		737993E5EDB873EC0BA23B1EDBC5D9CF /* NSArray+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0981EBB42517493C83594C519F6727EF /* NSArray+crashguard.m */; };
+		7520BD0A6267924D961E26EEF44FF3E3 /* NSCache+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 38CA174C8AC4BD40E275E6880EC9A957 /* NSCache+crashguard.m */; };
+		7BA49ACAA55C371BD61D80A9DDCC7C5D /* CALayer+CrashGurad.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC0844EA69396BE1756114E00D0511F /* CALayer+CrashGurad.m */; };
+		88F772AF560ABF08A7D8FCFB7B16594B /* NSAttributedString+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = AC89FE405C638383B0804CFD612E2CAF /* NSAttributedString+crashguard.m */; };
+		8AE3E299B48C76945F684F355CD0D43B /* NSLayoutConstraint+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 59BC603F1502D841003C96DA734ECE1A /* NSLayoutConstraint+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9045964ECE6E97BF483CCED1AEB640E7 /* NSAttributedString+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD50133A2A1C86C9CE2ADA5294749B /* NSAttributedString+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90C74824D0650C14A684C9677BC519C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9392B947441478DB33CD67C8F2A71B83 /* PXMarco.h in Headers */ = {isa = PBXBuildFile; fileRef = 9004FA5690C272B9B8E9630C34350B9D /* PXMarco.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E671F73185ED0E7A3870B4FCCDD9FD /* NSObject+DataRaceScaner.m in Sources */ = {isa = PBXBuildFile; fileRef = A09AD0F83DEDF04F0AE4E50D55C25E94 /* NSObject+DataRaceScaner.m */; };
+		9CBEC2E60E2B21F13D09BCBDE649575D /* NSURLSession+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 5174E3CB600085ADD304935F6E675C78 /* NSURLSession+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A49FA51AF37856F15E773E558406E547 /* MikiBacktraceLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CF86C476EF5F8A4CFD3D0745C38347E8 /* MikiBacktraceLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A84A7E736EA762B3D5CB805AACEC15EE /* PXXLogHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A6DC46959CC660928265CF260421C5 /* PXXLogHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1C09D539E363C858497B60F6E4ED0C5 /* NSDictionary+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = F8BCC26C70A255B098F0AC664249E627 /* NSDictionary+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5B64626531CFE8AE4CCE7D553F9D688 /* UINavigationController+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2E81F5FE9D464495102ED8294898C2 /* UINavigationController+crashguard.m */; };
+		B6E7A0488716270D806E789B5A225602 /* MiKiCrashGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 87B45EBD6CF75E31C12656512253343E /* MiKiCrashGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE9A81D9B0AE7A151815CD55538C01F6 /* NSJSONSerialization+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E54E90F5D1137AEB3C50F86C744F32 /* NSJSONSerialization+crashguard.m */; };
+		BEECAF4B0839E168844977521FA143F0 /* CrashGuardGeneralLock.mm in Sources */ = {isa = PBXBuildFile; fileRef = 19F28BDB6B552ABCC243CB14C1B6CAC2 /* CrashGuardGeneralLock.mm */; };
+		C09AE94805CEF0D91DB8148E50088DDF /* PXXLogHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 53ED9D309CF686BC02353C61133CEA68 /* PXXLogHelper.mm */; };
+		C35C53B16F70983A1484463A6D9C9409 /* Pods-Crashguard_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9274CAC35EA261AE2D7EFAEE09D8322C /* Pods-Crashguard_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C83580DE5F7CD7A6A67286936B530DB8 /* PXXLoggerUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 03C09214E3CA3D85B72BA17616794F6B /* PXXLoggerUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFADDA38C108C41D1A341D0AA84D82EB /* NSString+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1F54946444C5AB521A5D26FF52C649 /* NSString+crashguard.m */; };
+		D4E68483EBB2992A489DA78896732886 /* NSObject+crashguard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7952870F632B0DE1A63459ECB43355CE /* NSObject+crashguard.mm */; };
+		D5A231F24280D3F379EC7227262C93F8 /* PXXLoggerFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 779016965453FD7D3EB8685F5130C721 /* PXXLoggerFileManager.m */; };
+		D7E59B47167608D2D3EB9B7BD83DFF28 /* DispatchOnceDeadLockGuard.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E475B09A255AF7A9AA8E17741DEC680 /* DispatchOnceDeadLockGuard.m */; };
+		D9C156CB443F011F2881C7007342FEDB /* CrashGuardGeneralLock.h in Headers */ = {isa = PBXBuildFile; fileRef = 30E0D9D653738CBB1DA669E2A92E2956 /* CrashGuardGeneralLock.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		DD692AB6BC5F07D59744710EE6961575 /* PXFileLoggerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA5981303E8BC309FA5872533F8CC27 /* PXFileLoggerConfig.m */; };
+		E1A04DC22363AE91F57EC4BDDEF08AFC /* PXxlogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE45522884C2555695258AC48BC73C30 /* PXxlogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5C88F63E3DFF786CBCD6CB658CC3CCE /* MiKiUncaughtExceptionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = B51EAD9AC8AC57A939B7846E58BAC421 /* MiKiUncaughtExceptionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED5BC891A05AF2F1B3CD4BD140D0ECD2 /* NSObject+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = F665279BD17849CFC4C3A5DF185901C5 /* NSObject+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDAEFF82BFA69A8D095DD5712E3ECDF1 /* ANRStackDetectUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEF1A4959C43B9FFE2703CA92A60671 /* ANRStackDetectUtils.m */; };
+		EDC6395D28F763C27859C277237D52B9 /* NSNumber+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 89499E6F1B6761E13A8AB38FD7813D9A /* NSNumber+crashguard.m */; };
+		F1E618AD5D27ADB2499D4CEA0390146B /* NSArray+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E24F064DE2753BBE9BCE44914726F98 /* NSArray+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F38A97B7888B1435B626A62CE4167641 /* NSMutableDictionary+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = DF765F6E63C7C45DB858CE8743300DE8 /* NSMutableDictionary+crashguard.m */; };
+		F745F84C5153C313DECE3F2104745235 /* NSSet+crashguard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C88DDA930E103E170163788973F3B3B /* NSSet+crashguard.m */; };
+		FB4514B429AF10B5DA8A41D23A4F5970 /* DispatchOnceDeadLockGuard.h in Headers */ = {isa = PBXBuildFile; fileRef = 472F728A940FBA8814D43AF5DF38B931 /* DispatchOnceDeadLockGuard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF977CE3316AADA0855AE48ED38CA96 /* NSMutableArray+DataRaceScaner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C696C83583A1AE5776CEB67B0B9ADE8 /* NSMutableArray+DataRaceScaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD361FF991B81F95F05F8CEE3F76CE15 /* PXXLoggerService.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B0D6069AC254BF2B5D516DCE993C93 /* PXXLoggerService.m */; };
+		FD9E64BE74A2248A88BC61E25B34C787 /* NSCache+crashguard.h in Headers */ = {isa = PBXBuildFile; fileRef = CCE3333CB981ABEB33CEC709E82B4E80 /* NSCache+crashguard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		402E1AEB79FE9964019D7F6E634DA5C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3ADA39F4B81CB0A7A87A2CD92543143;
+			remoteInfo = PXxlogger;
+		};
+		797AED4582D45CE14EA25ACFC8AA9EC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6981B3FE8F7E5D4EB4E6207CDA11E9B1;
+			remoteInfo = "Pods-Crashguard_Example";
+		};
+		9F0186F93DDA655A890B5E9F37752A68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F2FE10832E1C3CEC6AF28D914A1AA2;
+			remoteInfo = Crashguard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00AD9C45C4C89A40063CA3D549A402B8 /* Pods-Crashguard_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Crashguard_Example.modulemap"; sourceTree = "<group>"; };
+		014CFDFF74C02C54C47BB1E6AF7BE9AC /* PXXLoggerService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerService.h; path = Classes/PXXLoggerService.h; sourceTree = "<group>"; };
+		03C09214E3CA3D85B72BA17616794F6B /* PXXLoggerUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerUtil.h; path = Classes/PXXLoggerUtil.h; sourceTree = "<group>"; };
+		06932EC5BB39A0914A17DE841F6BE8C8 /* Crashguard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Crashguard.modulemap; sourceTree = "<group>"; };
+		07BBBCC38226BB28AC3054374FD0F1D4 /* NSMutableArray+DataRaceScaner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+DataRaceScaner.m"; sourceTree = "<group>"; };
+		0981EBB42517493C83594C519F6727EF /* NSArray+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+crashguard.m"; sourceTree = "<group>"; };
+		0B5EAEC468D55260A3506AF22FFE7000 /* NSSet+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSSet+crashguard.h"; sourceTree = "<group>"; };
+		0CCD50133A2A1C86C9CE2ADA5294749B /* NSAttributedString+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+crashguard.h"; sourceTree = "<group>"; };
+		0E24F064DE2753BBE9BCE44914726F98 /* NSArray+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+crashguard.h"; sourceTree = "<group>"; };
+		13FBE3DD05E392D83B91827BD9E83D82 /* Crashguard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashguard.release.xcconfig; sourceTree = "<group>"; };
+		161B25D8CEBE090E8FA0CA477F50C3F6 /* Pods-Crashguard_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crashguard_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		19F28BDB6B552ABCC243CB14C1B6CAC2 /* CrashGuardGeneralLock.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = CrashGuardGeneralLock.mm; sourceTree = "<group>"; };
+		1A105F476013C659F2D5E6A3732B3B3E /* PXxlogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.release.xcconfig; sourceTree = "<group>"; };
+		1B518B46F5411818BE79038207A80743 /* PXxlogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PXxlogger.modulemap; sourceTree = "<group>"; };
+		2171D41E0C7BDB167D697DF80F206DA4 /* PXXLoggerFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLoggerFileManager.h; path = Classes/PXXLoggerFileManager.h; sourceTree = "<group>"; };
+		22E6C45D23C3D20449FFA079CBB54096 /* Pods-Crashguard_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Crashguard_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2428966377C40A27DC7FE160E8866B2B /* UINavigationController+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+crashguard.h"; sourceTree = "<group>"; };
+		2A66607CB2D94BC7F793D65CF99400E6 /* Pods-Crashguard_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Crashguard_Example"; path = Pods_Crashguard_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA5981303E8BC309FA5872533F8CC27 /* PXFileLoggerConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXFileLoggerConfig.m; path = Classes/PXFileLoggerConfig.m; sourceTree = "<group>"; };
+		30E0D9D653738CBB1DA669E2A92E2956 /* CrashGuardGeneralLock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CrashGuardGeneralLock.h; sourceTree = "<group>"; };
+		342BE2A1D53360BB5F6924FAE3554D1A /* MikiWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MikiWeakTimer.h; sourceTree = "<group>"; };
+		3587C9638D82E486D823C1DCBF3F5739 /* Pods-Crashguard_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crashguard_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		38CA174C8AC4BD40E275E6880EC9A957 /* NSCache+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSCache+crashguard.m"; sourceTree = "<group>"; };
+		3AD7BC367637C570834CFF84380FF4E1 /* PXxlogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PXxlogger.debug.xcconfig; sourceTree = "<group>"; };
+		3D5F0FE6AC8C287C45EBF3F83AFA39D8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		411CE627F3614A40EEE8874E9EF08156 /* PXxlogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-prefix.pch"; sourceTree = "<group>"; };
+		43394DDA4FE7FAE561AA6703CA1485AB /* Pods-Crashguard_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crashguard_Example-Info.plist"; sourceTree = "<group>"; };
+		4367D9A84EB7F1F458309D5CE3924969 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		44F42B4D98E11E854BE73ACC5102D297 /* Pods-Crashguard_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crashguard_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		472F728A940FBA8814D43AF5DF38B931 /* DispatchOnceDeadLockGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DispatchOnceDeadLockGuard.h; sourceTree = "<group>"; };
+		487FBAE8D56DB6AACBBEB9337CDC24B4 /* NSMutableDictionary+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+crashguard.h"; sourceTree = "<group>"; };
+		4AA77F21A4D7397CEC76272211983466 /* Pods-Crashguard_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crashguard_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4AB45E6C91DDB93C1FB0925738AAB8FB /* Pods-Crashguard_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crashguard_Example-dummy.m"; sourceTree = "<group>"; };
+		4B2E81F5FE9D464495102ED8294898C2 /* UINavigationController+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+crashguard.m"; sourceTree = "<group>"; };
+		515043E50D9EC71832496B0CC53A6870 /* Pods-Crashguard_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crashguard_Tests-Info.plist"; sourceTree = "<group>"; };
+		5174E3CB600085ADD304935F6E675C78 /* NSURLSession+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSURLSession+crashguard.h"; sourceTree = "<group>"; };
+		53ED9D309CF686BC02353C61133CEA68 /* PXXLogHelper.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = PXXLogHelper.mm; path = Classes/PXXLogHelper.mm; sourceTree = "<group>"; };
+		57BDE60E43C7FD619B160213F6D31DE6 /* NSMutableArray+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+crashguard.m"; sourceTree = "<group>"; };
+		585207272760240DEDEBC9FC24D7AC68 /* PXxlogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PXxlogger-Info.plist"; sourceTree = "<group>"; };
+		59BC603F1502D841003C96DA734ECE1A /* NSLayoutConstraint+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+crashguard.h"; sourceTree = "<group>"; };
+		5A77ACC3AAB5361012A64359FBD5CE4F /* NSObject+DataRaceScaner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DataRaceScaner.h"; sourceTree = "<group>"; };
+		5B00F85D9C4AA192B4C26D8D38B45F7A /* Crashguard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crashguard-umbrella.h"; sourceTree = "<group>"; };
+		5C1F54946444C5AB521A5D26FF52C649 /* NSString+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+crashguard.m"; sourceTree = "<group>"; };
+		60B9DAFEE8E2702F6D9CFABAFB0DED92 /* Pods-Crashguard_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Crashguard_Tests.modulemap"; sourceTree = "<group>"; };
+		6538139B733D6C737CAB4266E8D9563F /* NSMutableArray+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+crashguard.h"; sourceTree = "<group>"; };
+		65B0D6069AC254BF2B5D516DCE993C93 /* PXXLoggerService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerService.m; path = Classes/PXXLoggerService.m; sourceTree = "<group>"; };
+		66A551331DB729C4806CD0F8279972B0 /* Crashguard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Crashguard.debug.xcconfig; sourceTree = "<group>"; };
+		6C696C83583A1AE5776CEB67B0B9ADE8 /* NSMutableArray+DataRaceScaner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+DataRaceScaner.h"; sourceTree = "<group>"; };
+		6C88DDA930E103E170163788973F3B3B /* NSSet+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSSet+crashguard.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		743473407F1B8F21DFB7259863A6674E /* NSURLSession+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSURLSession+crashguard.m"; sourceTree = "<group>"; };
+		74420BF54EEA19787E3B6F3B08A03620 /* Pods-Crashguard_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Crashguard_Tests"; path = Pods_Crashguard_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		779016965453FD7D3EB8685F5130C721 /* PXXLoggerFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PXXLoggerFileManager.m; path = Classes/PXXLoggerFileManager.m; sourceTree = "<group>"; };
+		7952870F632B0DE1A63459ECB43355CE /* NSObject+crashguard.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = "NSObject+crashguard.mm"; sourceTree = "<group>"; };
+		7B55AB541A526DC9876C5A0768E56B70 /* NSDictionary+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+crashguard.m"; sourceTree = "<group>"; };
+		81DF0C4CE3B4AFBA6DAEC6390E268E9D /* NSMutableDictionary+DataRaceScaner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSMutableDictionary+DataRaceScaner.h"; sourceTree = "<group>"; };
+		84F66281C34D1DA176F188D69D7ADA1C /* UIView+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+crashguard.h"; sourceTree = "<group>"; };
+		87B45EBD6CF75E31C12656512253343E /* MiKiCrashGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiKiCrashGuard.h; path = Classes/MiKiCrashGuard.h; sourceTree = "<group>"; };
+		89499E6F1B6761E13A8AB38FD7813D9A /* NSNumber+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+crashguard.m"; sourceTree = "<group>"; };
+		8C7E24FA57DA52E8320F05C4421A6AE5 /* PXxlogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PXxlogger-dummy.m"; sourceTree = "<group>"; };
+		9004FA5690C272B9B8E9630C34350B9D /* PXMarco.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXMarco.h; path = Classes/PXMarco.h; sourceTree = "<group>"; };
+		902A187A93BA051974AC0CC2EECB9702 /* MiKiCrashGuard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MiKiCrashGuard.m; path = Classes/MiKiCrashGuard.m; sourceTree = "<group>"; };
+		908C6A7BFF09AE01BEAF05389A7F2D32 /* mars.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mars.framework; path = Vendor/mars.framework; sourceTree = "<group>"; };
+		9274CAC35EA261AE2D7EFAEE09D8322C /* Pods-Crashguard_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Crashguard_Example-umbrella.h"; sourceTree = "<group>"; };
+		96ADBCCBD029C3D1A99C1AD4037496C0 /* Crashguard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Crashguard-dummy.m"; sourceTree = "<group>"; };
+		99F0DC1BFAED55762333126630093804 /* UIView+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+crashguard.m"; sourceTree = "<group>"; };
+		9AF4FB844F7E56DCB245B8B3A29BC3DF /* Pods-Crashguard_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crashguard_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DC0844EA69396BE1756114E00D0511F /* CALayer+CrashGurad.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CALayer+CrashGurad.m"; sourceTree = "<group>"; };
+		9E475B09A255AF7A9AA8E17741DEC680 /* DispatchOnceDeadLockGuard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DispatchOnceDeadLockGuard.m; sourceTree = "<group>"; };
+		A09AD0F83DEDF04F0AE4E50D55C25E94 /* NSObject+DataRaceScaner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DataRaceScaner.m"; sourceTree = "<group>"; };
+		A1E54E90F5D1137AEB3C50F86C744F32 /* NSJSONSerialization+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+crashguard.m"; sourceTree = "<group>"; };
+		A9450A6ED5EBE31E42C5C95BF5A78FD7 /* NSLayoutConstraint+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+crashguard.m"; sourceTree = "<group>"; };
+		A9E2B95C79765F447A051FB913877C14 /* PXFileLoggerConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXFileLoggerConfig.h; path = Classes/PXFileLoggerConfig.h; sourceTree = "<group>"; };
+		AC89FE405C638383B0804CFD612E2CAF /* NSAttributedString+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+crashguard.m"; sourceTree = "<group>"; };
+		AD6B5BDC5C2B6794931F3480E90D3673 /* NSData+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSData+crashguard.m"; sourceTree = "<group>"; };
+		B50E264DBCB48229414AA43FD5A7A71F /* Crashguard.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Crashguard.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B51EAD9AC8AC57A939B7846E58BAC421 /* MiKiUncaughtExceptionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MiKiUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		B586009883B237FC9C4B3B6155417EE8 /* Pods-Crashguard_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crashguard_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B68E53A9AE262707B6041378A86E3403 /* CALayer+CrashGuard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CALayer+CrashGuard.h"; sourceTree = "<group>"; };
+		B9D12DDFE6CCE61BC7EEBB1C503754E9 /* MikiWeakTimer.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = MikiWeakTimer.mm; sourceTree = "<group>"; };
+		C53A731D9219AA4ECFCCAC03E07DA242 /* Crashguard */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Crashguard; path = Crashguard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DB318B153625A70CC1EED2EE48CB77 /* NSData+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSData+crashguard.h"; sourceTree = "<group>"; };
+		C860F691D8FDB6C123AE4824D577854E /* NSString+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+crashguard.h"; sourceTree = "<group>"; };
+		CCE3333CB981ABEB33CEC709E82B4E80 /* NSCache+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSCache+crashguard.h"; sourceTree = "<group>"; };
+		CEB319511FDFF979CBD867C0B15B6F9A /* MikiBacktraceLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MikiBacktraceLogger.m; sourceTree = "<group>"; };
+		CF86C476EF5F8A4CFD3D0745C38347E8 /* MikiBacktraceLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MikiBacktraceLogger.h; sourceTree = "<group>"; };
+		D12E756618FF5A8A30B2333657409F52 /* Crashguard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Crashguard-prefix.pch"; sourceTree = "<group>"; };
+		D2A8F6C6237F1A0656E93E91365F4606 /* Pods-Crashguard_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crashguard_Tests-dummy.m"; sourceTree = "<group>"; };
+		D7A55DF46EB1F6C0DDE6A9D8A6C8CE24 /* PXxlogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PXxlogger; path = PXxlogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C215040B6B8DC55C332F0796A31ECA /* Crashguard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Crashguard-Info.plist"; sourceTree = "<group>"; };
+		DC62AA9A0F2BE62196B151A15A8FD55B /* Pods-Crashguard_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crashguard_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDE8C1A95D0DFD5BB78808BF1CF19E29 /* NSNumber+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNumber+crashguard.h"; sourceTree = "<group>"; };
+		DDEF1A4959C43B9FFE2703CA92A60671 /* ANRStackDetectUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANRStackDetectUtils.m; sourceTree = "<group>"; };
+		DF765F6E63C7C45DB858CE8743300DE8 /* NSMutableDictionary+crashguard.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+crashguard.m"; sourceTree = "<group>"; };
+		E2F57B17CD7EE0BB89F4284C35C81CD9 /* NSMutableDictionary+DataRaceScaner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSMutableDictionary+DataRaceScaner.m"; sourceTree = "<group>"; };
+		E49F9871B61B25F1DA79E41ED4716F3F /* Pods-Crashguard_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Crashguard_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E600645C53B81D53F8E1F9B8DDF31D14 /* NSJSONSerialization+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+crashguard.h"; sourceTree = "<group>"; };
+		E6A6DC46959CC660928265CF260421C5 /* PXXLogHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PXXLogHelper.h; path = Classes/PXXLogHelper.h; sourceTree = "<group>"; };
+		E79AB19A4694B6AF35B27D4A1B7D0123 /* ANRStackDetectUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANRStackDetectUtils.h; sourceTree = "<group>"; };
+		E79E04A47B1FF00E8F0B1528EE5BB479 /* Pods-Crashguard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crashguard_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F665279BD17849CFC4C3A5DF185901C5 /* NSObject+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+crashguard.h"; sourceTree = "<group>"; };
+		F8BCC26C70A255B098F0AC664249E627 /* NSDictionary+crashguard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+crashguard.h"; sourceTree = "<group>"; };
+		F922DCAE2C23F70C1ADE0A3B8320EBB5 /* MiKiUncaughtExceptionHandler.mm */ = {isa = PBXFileReference; includeInIndex = 1; path = MiKiUncaughtExceptionHandler.mm; sourceTree = "<group>"; };
+		F9892CFCAFBA4D3A7ACD9E703A46DB16 /* MiKiCGMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MiKiCGMacro.h; path = Classes/MiKiCGMacro.h; sourceTree = "<group>"; };
+		FE45522884C2555695258AC48BC73C30 /* PXxlogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PXxlogger-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C3F680C55522AC2970ED110211CFEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F161E83DE84005A0281522F1D42A0A4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2638B516746272133813475AC99B0CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2BF45F465B49F7AFE4339C7BE4854 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D500E8276FE1FAB220388B70439F65B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C74824D0650C14A684C9677BC519C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA18C6983093B0DA54C297A08EDCD24D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410471CF18F83044AD05202073E1892A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14001CCE58F6BB45D838A0B5C087C7FD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECD6708396463C320436FD626AE2B8E3 /* Pods-Crashguard_Example */,
+				A4E19A6CEB49222DF43952369576CA68 /* Pods-Crashguard_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1897E363A4D8CE073D6B242590BD4FE3 /* ANRStackDetectUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E79AB19A4694B6AF35B27D4A1B7D0123 /* ANRStackDetectUtils.h */,
+				DDEF1A4959C43B9FFE2703CA92A60671 /* ANRStackDetectUtils.m */,
+				B51EAD9AC8AC57A939B7846E58BAC421 /* MiKiUncaughtExceptionHandler.h */,
+				F922DCAE2C23F70C1ADE0A3B8320EBB5 /* MiKiUncaughtExceptionHandler.mm */,
+				342BE2A1D53360BB5F6924FAE3554D1A /* MikiWeakTimer.h */,
+				B9D12DDFE6CCE61BC7EEBB1C503754E9 /* MikiWeakTimer.mm */,
+			);
+			name = ANRStackDetectUtils;
+			path = Classes/ANRStackDetectUtils;
+			sourceTree = "<group>";
+		};
+		201702ED19936DA2F6F0A140B08C136E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B50E264DBCB48229414AA43FD5A7A71F /* Crashguard.podspec */,
+				4367D9A84EB7F1F458309D5CE3924969 /* LICENSE */,
+				3D5F0FE6AC8C287C45EBF3F83AFA39D8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		2595183685D81E858380530C2B2A24F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A18D5D8C08E181E08300C90FF3A1D43B /* PXxlogger */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55892064EC0F279F4B4680DF46AEEC30 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B518B46F5411818BE79038207A80743 /* PXxlogger.modulemap */,
+				8C7E24FA57DA52E8320F05C4421A6AE5 /* PXxlogger-dummy.m */,
+				585207272760240DEDEBC9FC24D7AC68 /* PXxlogger-Info.plist */,
+				411CE627F3614A40EEE8874E9EF08156 /* PXxlogger-prefix.pch */,
+				FE45522884C2555695258AC48BC73C30 /* PXxlogger-umbrella.h */,
+				3AD7BC367637C570834CFF84380FF4E1 /* PXxlogger.debug.xcconfig */,
+				1A105F476013C659F2D5E6A3732B3B3E /* PXxlogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PXxlogger";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58B8FD744884DDC246DBC0BAF5581727 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06932EC5BB39A0914A17DE841F6BE8C8 /* Crashguard.modulemap */,
+				96ADBCCBD029C3D1A99C1AD4037496C0 /* Crashguard-dummy.m */,
+				D7C215040B6B8DC55C332F0796A31ECA /* Crashguard-Info.plist */,
+				D12E756618FF5A8A30B2333657409F52 /* Crashguard-prefix.pch */,
+				5B00F85D9C4AA192B4C26D8D38B45F7A /* Crashguard-umbrella.h */,
+				66A551331DB729C4806CD0F8279972B0 /* Crashguard.debug.xcconfig */,
+				13FBE3DD05E392D83B91827BD9E83D82 /* Crashguard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Crashguard";
+			sourceTree = "<group>";
+		};
+		716EAE40203B455BCFF75A7C7A240DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C53A731D9219AA4ECFCCAC03E07DA242 /* Crashguard */,
+				2A66607CB2D94BC7F793D65CF99400E6 /* Pods-Crashguard_Example */,
+				74420BF54EEA19787E3B6F3B08A03620 /* Pods-Crashguard_Tests */,
+				D7A55DF46EB1F6C0DDE6A9D8A6C8CE24 /* PXxlogger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75608CC3F533DC5528A8E83C98CAC12A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B46445A1DD1E32E8653FD662830F0FE6 /* Crashguard */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8FB517B61A0B1290E9B530876422813B /* BaseGuard */ = {
+			isa = PBXGroup;
+			children = (
+				B68E53A9AE262707B6041378A86E3403 /* CALayer+CrashGuard.h */,
+				9DC0844EA69396BE1756114E00D0511F /* CALayer+CrashGurad.m */,
+				30E0D9D653738CBB1DA669E2A92E2956 /* CrashGuardGeneralLock.h */,
+				19F28BDB6B552ABCC243CB14C1B6CAC2 /* CrashGuardGeneralLock.mm */,
+				0E24F064DE2753BBE9BCE44914726F98 /* NSArray+crashguard.h */,
+				0981EBB42517493C83594C519F6727EF /* NSArray+crashguard.m */,
+				0CCD50133A2A1C86C9CE2ADA5294749B /* NSAttributedString+crashguard.h */,
+				AC89FE405C638383B0804CFD612E2CAF /* NSAttributedString+crashguard.m */,
+				CCE3333CB981ABEB33CEC709E82B4E80 /* NSCache+crashguard.h */,
+				38CA174C8AC4BD40E275E6880EC9A957 /* NSCache+crashguard.m */,
+				C5DB318B153625A70CC1EED2EE48CB77 /* NSData+crashguard.h */,
+				AD6B5BDC5C2B6794931F3480E90D3673 /* NSData+crashguard.m */,
+				F8BCC26C70A255B098F0AC664249E627 /* NSDictionary+crashguard.h */,
+				7B55AB541A526DC9876C5A0768E56B70 /* NSDictionary+crashguard.m */,
+				E600645C53B81D53F8E1F9B8DDF31D14 /* NSJSONSerialization+crashguard.h */,
+				A1E54E90F5D1137AEB3C50F86C744F32 /* NSJSONSerialization+crashguard.m */,
+				59BC603F1502D841003C96DA734ECE1A /* NSLayoutConstraint+crashguard.h */,
+				A9450A6ED5EBE31E42C5C95BF5A78FD7 /* NSLayoutConstraint+crashguard.m */,
+				6538139B733D6C737CAB4266E8D9563F /* NSMutableArray+crashguard.h */,
+				57BDE60E43C7FD619B160213F6D31DE6 /* NSMutableArray+crashguard.m */,
+				487FBAE8D56DB6AACBBEB9337CDC24B4 /* NSMutableDictionary+crashguard.h */,
+				DF765F6E63C7C45DB858CE8743300DE8 /* NSMutableDictionary+crashguard.m */,
+				DDE8C1A95D0DFD5BB78808BF1CF19E29 /* NSNumber+crashguard.h */,
+				89499E6F1B6761E13A8AB38FD7813D9A /* NSNumber+crashguard.m */,
+				F665279BD17849CFC4C3A5DF185901C5 /* NSObject+crashguard.h */,
+				7952870F632B0DE1A63459ECB43355CE /* NSObject+crashguard.mm */,
+				0B5EAEC468D55260A3506AF22FFE7000 /* NSSet+crashguard.h */,
+				6C88DDA930E103E170163788973F3B3B /* NSSet+crashguard.m */,
+				C860F691D8FDB6C123AE4824D577854E /* NSString+crashguard.h */,
+				5C1F54946444C5AB521A5D26FF52C649 /* NSString+crashguard.m */,
+				5174E3CB600085ADD304935F6E675C78 /* NSURLSession+crashguard.h */,
+				743473407F1B8F21DFB7259863A6674E /* NSURLSession+crashguard.m */,
+				2428966377C40A27DC7FE160E8866B2B /* UINavigationController+crashguard.h */,
+				4B2E81F5FE9D464495102ED8294898C2 /* UINavigationController+crashguard.m */,
+				84F66281C34D1DA176F188D69D7ADA1C /* UIView+crashguard.h */,
+				99F0DC1BFAED55762333126630093804 /* UIView+crashguard.m */,
+			);
+			name = BaseGuard;
+			path = Classes/BaseGuard;
+			sourceTree = "<group>";
+		};
+		A18D5D8C08E181E08300C90FF3A1D43B /* PXxlogger */ = {
+			isa = PBXGroup;
+			children = (
+				A9E2B95C79765F447A051FB913877C14 /* PXFileLoggerConfig.h */,
+				2FA5981303E8BC309FA5872533F8CC27 /* PXFileLoggerConfig.m */,
+				9004FA5690C272B9B8E9630C34350B9D /* PXMarco.h */,
+				2171D41E0C7BDB167D697DF80F206DA4 /* PXXLoggerFileManager.h */,
+				779016965453FD7D3EB8685F5130C721 /* PXXLoggerFileManager.m */,
+				014CFDFF74C02C54C47BB1E6AF7BE9AC /* PXXLoggerService.h */,
+				65B0D6069AC254BF2B5D516DCE993C93 /* PXXLoggerService.m */,
+				03C09214E3CA3D85B72BA17616794F6B /* PXXLoggerUtil.h */,
+				E6A6DC46959CC660928265CF260421C5 /* PXXLogHelper.h */,
+				53ED9D309CF686BC02353C61133CEA68 /* PXXLogHelper.mm */,
+				A74874812EA468702033BC9538D19652 /* Frameworks */,
+				55892064EC0F279F4B4680DF46AEEC30 /* Support Files */,
+			);
+			name = PXxlogger;
+			path = PXxlogger;
+			sourceTree = "<group>";
+		};
+		A4E19A6CEB49222DF43952369576CA68 /* Pods-Crashguard_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				60B9DAFEE8E2702F6D9CFABAFB0DED92 /* Pods-Crashguard_Tests.modulemap */,
+				9AF4FB844F7E56DCB245B8B3A29BC3DF /* Pods-Crashguard_Tests-acknowledgements.markdown */,
+				3587C9638D82E486D823C1DCBF3F5739 /* Pods-Crashguard_Tests-acknowledgements.plist */,
+				D2A8F6C6237F1A0656E93E91365F4606 /* Pods-Crashguard_Tests-dummy.m */,
+				515043E50D9EC71832496B0CC53A6870 /* Pods-Crashguard_Tests-Info.plist */,
+				22E6C45D23C3D20449FFA079CBB54096 /* Pods-Crashguard_Tests-umbrella.h */,
+				161B25D8CEBE090E8FA0CA477F50C3F6 /* Pods-Crashguard_Tests.debug.xcconfig */,
+				E79E04A47B1FF00E8F0B1528EE5BB479 /* Pods-Crashguard_Tests.release.xcconfig */,
+			);
+			name = "Pods-Crashguard_Tests";
+			path = "Target Support Files/Pods-Crashguard_Tests";
+			sourceTree = "<group>";
+		};
+		A74874812EA468702033BC9538D19652 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908C6A7BFF09AE01BEAF05389A7F2D32 /* mars.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B46445A1DD1E32E8653FD662830F0FE6 /* Crashguard */ = {
+			isa = PBXGroup;
+			children = (
+				F9892CFCAFBA4D3A7ACD9E703A46DB16 /* MiKiCGMacro.h */,
+				87B45EBD6CF75E31C12656512253343E /* MiKiCrashGuard.h */,
+				902A187A93BA051974AC0CC2EECB9702 /* MiKiCrashGuard.m */,
+				1897E363A4D8CE073D6B242590BD4FE3 /* ANRStackDetectUtils */,
+				8FB517B61A0B1290E9B530876422813B /* BaseGuard */,
+				E8B29173CBAA5D3F1335404D49ED395A /* DataRace */,
+				E41A594D17126C1C77D21E0E787DE32C /* DispatchOnceGuard */,
+				201702ED19936DA2F6F0A140B08C136E /* Pod */,
+				F21101DEC459C81AC82BBB384B1F9C67 /* StackLogger */,
+				58B8FD744884DDC246DBC0BAF5581727 /* Support Files */,
+			);
+			name = Crashguard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				75608CC3F533DC5528A8E83C98CAC12A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2595183685D81E858380530C2B2A24F6 /* Pods */,
+				716EAE40203B455BCFF75A7C7A240DC3 /* Products */,
+				14001CCE58F6BB45D838A0B5C087C7FD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E41A594D17126C1C77D21E0E787DE32C /* DispatchOnceGuard */ = {
+			isa = PBXGroup;
+			children = (
+				472F728A940FBA8814D43AF5DF38B931 /* DispatchOnceDeadLockGuard.h */,
+				9E475B09A255AF7A9AA8E17741DEC680 /* DispatchOnceDeadLockGuard.m */,
+			);
+			name = DispatchOnceGuard;
+			path = Classes/DispatchOnceGuard;
+			sourceTree = "<group>";
+		};
+		E8B29173CBAA5D3F1335404D49ED395A /* DataRace */ = {
+			isa = PBXGroup;
+			children = (
+				6C696C83583A1AE5776CEB67B0B9ADE8 /* NSMutableArray+DataRaceScaner.h */,
+				07BBBCC38226BB28AC3054374FD0F1D4 /* NSMutableArray+DataRaceScaner.m */,
+				81DF0C4CE3B4AFBA6DAEC6390E268E9D /* NSMutableDictionary+DataRaceScaner.h */,
+				E2F57B17CD7EE0BB89F4284C35C81CD9 /* NSMutableDictionary+DataRaceScaner.m */,
+				5A77ACC3AAB5361012A64359FBD5CE4F /* NSObject+DataRaceScaner.h */,
+				A09AD0F83DEDF04F0AE4E50D55C25E94 /* NSObject+DataRaceScaner.m */,
+			);
+			name = DataRace;
+			path = Classes/DataRace;
+			sourceTree = "<group>";
+		};
+		ECD6708396463C320436FD626AE2B8E3 /* Pods-Crashguard_Example */ = {
+			isa = PBXGroup;
+			children = (
+				00AD9C45C4C89A40063CA3D549A402B8 /* Pods-Crashguard_Example.modulemap */,
+				DC62AA9A0F2BE62196B151A15A8FD55B /* Pods-Crashguard_Example-acknowledgements.markdown */,
+				4AA77F21A4D7397CEC76272211983466 /* Pods-Crashguard_Example-acknowledgements.plist */,
+				4AB45E6C91DDB93C1FB0925738AAB8FB /* Pods-Crashguard_Example-dummy.m */,
+				E49F9871B61B25F1DA79E41ED4716F3F /* Pods-Crashguard_Example-frameworks.sh */,
+				43394DDA4FE7FAE561AA6703CA1485AB /* Pods-Crashguard_Example-Info.plist */,
+				9274CAC35EA261AE2D7EFAEE09D8322C /* Pods-Crashguard_Example-umbrella.h */,
+				44F42B4D98E11E854BE73ACC5102D297 /* Pods-Crashguard_Example.debug.xcconfig */,
+				B586009883B237FC9C4B3B6155417EE8 /* Pods-Crashguard_Example.release.xcconfig */,
+			);
+			name = "Pods-Crashguard_Example";
+			path = "Target Support Files/Pods-Crashguard_Example";
+			sourceTree = "<group>";
+		};
+		F21101DEC459C81AC82BBB384B1F9C67 /* StackLogger */ = {
+			isa = PBXGroup;
+			children = (
+				CF86C476EF5F8A4CFD3D0745C38347E8 /* MikiBacktraceLogger.h */,
+				CEB319511FDFF979CBD867C0B15B6F9A /* MikiBacktraceLogger.m */,
+			);
+			name = StackLogger;
+			path = Classes/StackLogger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		256E0F748E8C79627DFE971189F45372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				265F888853F3C341AA66294751B93590 /* Pods-Crashguard_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1107D4BA0C86C9D6044854C49C91847 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04843602EE401CDE391BE63D1F20CEB0 /* PXFileLoggerConfig.h in Headers */,
+				9392B947441478DB33CD67C8F2A71B83 /* PXMarco.h in Headers */,
+				E1A04DC22363AE91F57EC4BDDEF08AFC /* PXxlogger-umbrella.h in Headers */,
+				196E5C1177614570E0D98B93F03D2BA7 /* PXXLoggerFileManager.h in Headers */,
+				61F62882AF62F028581C82AC26444564 /* PXXLoggerService.h in Headers */,
+				C83580DE5F7CD7A6A67286936B530DB8 /* PXXLoggerUtil.h in Headers */,
+				A84A7E736EA762B3D5CB805AACEC15EE /* PXXLogHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A90CEDCA5FC9940DA7D247EACE965C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				419229D9BA92F157650387E18D75A51C /* ANRStackDetectUtils.h in Headers */,
+				5646E5ABC311A11E669BD5E66FDB7292 /* CALayer+CrashGuard.h in Headers */,
+				33DED706AA123F1528D4ADF96E21AF69 /* Crashguard-umbrella.h in Headers */,
+				D9C156CB443F011F2881C7007342FEDB /* CrashGuardGeneralLock.h in Headers */,
+				FB4514B429AF10B5DA8A41D23A4F5970 /* DispatchOnceDeadLockGuard.h in Headers */,
+				A49FA51AF37856F15E773E558406E547 /* MikiBacktraceLogger.h in Headers */,
+				4DC8E227269882014D919E5AFFB62DD1 /* MiKiCGMacro.h in Headers */,
+				B6E7A0488716270D806E789B5A225602 /* MiKiCrashGuard.h in Headers */,
+				E5C88F63E3DFF786CBCD6CB658CC3CCE /* MiKiUncaughtExceptionHandler.h in Headers */,
+				62916169E54C73EF3DBE69F38ABD3ADA /* MikiWeakTimer.h in Headers */,
+				F1E618AD5D27ADB2499D4CEA0390146B /* NSArray+crashguard.h in Headers */,
+				9045964ECE6E97BF483CCED1AEB640E7 /* NSAttributedString+crashguard.h in Headers */,
+				FD9E64BE74A2248A88BC61E25B34C787 /* NSCache+crashguard.h in Headers */,
+				0902E57D4FFC76FA4DAF1A1D7DDBE2F5 /* NSData+crashguard.h in Headers */,
+				B1C09D539E363C858497B60F6E4ED0C5 /* NSDictionary+crashguard.h in Headers */,
+				5E3B9A19825C5F864285B1D7D85B3E2B /* NSJSONSerialization+crashguard.h in Headers */,
+				8AE3E299B48C76945F684F355CD0D43B /* NSLayoutConstraint+crashguard.h in Headers */,
+				4533D18CDDAD006CAAB2A46708F5511D /* NSMutableArray+crashguard.h in Headers */,
+				FCF977CE3316AADA0855AE48ED38CA96 /* NSMutableArray+DataRaceScaner.h in Headers */,
+				2152C6EC78A99F40A68B84F87429840A /* NSMutableDictionary+crashguard.h in Headers */,
+				695EB8EADD9F6BB64A031F10F6F4D72C /* NSMutableDictionary+DataRaceScaner.h in Headers */,
+				204D065C79D0EC28F37D178D17504970 /* NSNumber+crashguard.h in Headers */,
+				ED5BC891A05AF2F1B3CD4BD140D0ECD2 /* NSObject+crashguard.h in Headers */,
+				1717451757FD7033D7DB0F0A22E0760F /* NSObject+DataRaceScaner.h in Headers */,
+				5A06D4DEFD288A5A0F3382D77209C2B1 /* NSSet+crashguard.h in Headers */,
+				387E50128BC9788DD6D0F36FD1E5BC75 /* NSString+crashguard.h in Headers */,
+				9CBEC2E60E2B21F13D09BCBDE649575D /* NSURLSession+crashguard.h in Headers */,
+				681B9E6C76C93A87827213F97705246B /* UINavigationController+crashguard.h in Headers */,
+				6C995188891CD883F7C1EC3BA0A2ACCD /* UIView+crashguard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E28EE8A0327B25D851F5A987D4FE2C70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C35C53B16F70983A1484463A6D9C9409 /* Pods-Crashguard_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54F2FE10832E1C3CEC6AF28D914A1AA2 /* Crashguard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 401CCA8EC8CBCB20EAFFFFB042BD777D /* Build configuration list for PBXNativeTarget "Crashguard" */;
+			buildPhases = (
+				D7A90CEDCA5FC9940DA7D247EACE965C /* Headers */,
+				6E4060C716102455A7A29050F4EEB5E7 /* Sources */,
+				FA18C6983093B0DA54C297A08EDCD24D /* Frameworks */,
+				739109AC05C8B8D29B950EC291F84577 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crashguard;
+			productName = Crashguard;
+			productReference = C53A731D9219AA4ECFCCAC03E07DA242 /* Crashguard */;
+			productType = "com.apple.product-type.framework";
+		};
+		6981B3FE8F7E5D4EB4E6207CDA11E9B1 /* Pods-Crashguard_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4404C80D66DEF177CF8AFC7E43E396 /* Build configuration list for PBXNativeTarget "Pods-Crashguard_Example" */;
+			buildPhases = (
+				E28EE8A0327B25D851F5A987D4FE2C70 /* Headers */,
+				0B7AD8DB9204835F538E015CA7EB05A6 /* Sources */,
+				D500E8276FE1FAB220388B70439F65B7 /* Frameworks */,
+				31D731B4B01BE63528A17DD83E065A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C25619165CAE0A4280691F2849489D9 /* PBXTargetDependency */,
+				4170F9D0A987E12F9C2E04881644290D /* PBXTargetDependency */,
+			);
+			name = "Pods-Crashguard_Example";
+			productName = Pods_Crashguard_Example;
+			productReference = 2A66607CB2D94BC7F793D65CF99400E6 /* Pods-Crashguard_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF066C19B534A5BE06C725A83E081325 /* Pods-Crashguard_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA829E2A9A05D15B4B7C5C33013F0E9D /* Build configuration list for PBXNativeTarget "Pods-Crashguard_Tests" */;
+			buildPhases = (
+				256E0F748E8C79627DFE971189F45372 /* Headers */,
+				D06BF2548A37827ED7ED87CC23BFA0F9 /* Sources */,
+				A2638B516746272133813475AC99B0CA /* Frameworks */,
+				4CC8F58BE6B2DD6A593049D3F9B09A73 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9F14EA75A0C4FE5635B876660DF0579 /* PBXTargetDependency */,
+			);
+			name = "Pods-Crashguard_Tests";
+			productName = Pods_Crashguard_Tests;
+			productReference = 74420BF54EEA19787E3B6F3B08A03620 /* Pods-Crashguard_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C3ADA39F4B81CB0A7A87A2CD92543143 /* PXxlogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F625F27E8AF0FD870498A6A0250FED93 /* Build configuration list for PBXNativeTarget "PXxlogger" */;
+			buildPhases = (
+				C1107D4BA0C86C9D6044854C49C91847 /* Headers */,
+				D5051C187F64B4532125828350E71B83 /* Sources */,
+				4C3F680C55522AC2970ED110211CFEA9 /* Frameworks */,
+				715CAB563AE3E8E95279EAC3936BE3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXxlogger;
+			productName = PXxlogger;
+			productReference = D7A55DF46EB1F6C0DDE6A9D8A6C8CE24 /* PXxlogger */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 716EAE40203B455BCFF75A7C7A240DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F2FE10832E1C3CEC6AF28D914A1AA2 /* Crashguard */,
+				6981B3FE8F7E5D4EB4E6207CDA11E9B1 /* Pods-Crashguard_Example */,
+				BF066C19B534A5BE06C725A83E081325 /* Pods-Crashguard_Tests */,
+				C3ADA39F4B81CB0A7A87A2CD92543143 /* PXxlogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31D731B4B01BE63528A17DD83E065A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CC8F58BE6B2DD6A593049D3F9B09A73 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		715CAB563AE3E8E95279EAC3936BE3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		739109AC05C8B8D29B950EC291F84577 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7AD8DB9204835F538E015CA7EB05A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349D774236CBC95F4B1F1D1170806C48 /* Pods-Crashguard_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4060C716102455A7A29050F4EEB5E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDAEFF82BFA69A8D095DD5712E3ECDF1 /* ANRStackDetectUtils.m in Sources */,
+				7BA49ACAA55C371BD61D80A9DDCC7C5D /* CALayer+CrashGurad.m in Sources */,
+				6334A645C8F13745D8384B83502CBF45 /* Crashguard-dummy.m in Sources */,
+				BEECAF4B0839E168844977521FA143F0 /* CrashGuardGeneralLock.mm in Sources */,
+				D7E59B47167608D2D3EB9B7BD83DFF28 /* DispatchOnceDeadLockGuard.m in Sources */,
+				34DB519F97E2FAB29C49A5F27BE18004 /* MikiBacktraceLogger.m in Sources */,
+				4D8E1542F669E71CB44D1221569DE5F9 /* MiKiCrashGuard.m in Sources */,
+				654058FBA132C0799B1AFA6C2A633572 /* MiKiUncaughtExceptionHandler.mm in Sources */,
+				2E7D0F02A0131442D656357F90AFF30F /* MikiWeakTimer.mm in Sources */,
+				737993E5EDB873EC0BA23B1EDBC5D9CF /* NSArray+crashguard.m in Sources */,
+				88F772AF560ABF08A7D8FCFB7B16594B /* NSAttributedString+crashguard.m in Sources */,
+				7520BD0A6267924D961E26EEF44FF3E3 /* NSCache+crashguard.m in Sources */,
+				324EF5DEC189651D7F97EAC336C5E00C /* NSData+crashguard.m in Sources */,
+				0F0BE618800A287CBD6D6C97887536E6 /* NSDictionary+crashguard.m in Sources */,
+				BE9A81D9B0AE7A151815CD55538C01F6 /* NSJSONSerialization+crashguard.m in Sources */,
+				605437203A1C74850426F454B4F389E3 /* NSLayoutConstraint+crashguard.m in Sources */,
+				57848CDF7E72DF119224BD84E14900B7 /* NSMutableArray+crashguard.m in Sources */,
+				19BC797C67102A3AF0B212827D883E73 /* NSMutableArray+DataRaceScaner.m in Sources */,
+				F38A97B7888B1435B626A62CE4167641 /* NSMutableDictionary+crashguard.m in Sources */,
+				66EEB21BF05B914DFCED1FB6148D1DC0 /* NSMutableDictionary+DataRaceScaner.m in Sources */,
+				EDC6395D28F763C27859C277237D52B9 /* NSNumber+crashguard.m in Sources */,
+				D4E68483EBB2992A489DA78896732886 /* NSObject+crashguard.mm in Sources */,
+				98E671F73185ED0E7A3870B4FCCDD9FD /* NSObject+DataRaceScaner.m in Sources */,
+				F745F84C5153C313DECE3F2104745235 /* NSSet+crashguard.m in Sources */,
+				CFADDA38C108C41D1A341D0AA84D82EB /* NSString+crashguard.m in Sources */,
+				4BB7A1AE94DFB22820B3E1F81089D6BC /* NSURLSession+crashguard.m in Sources */,
+				B5B64626531CFE8AE4CCE7D553F9D688 /* UINavigationController+crashguard.m in Sources */,
+				29D5935ED6FE714AD9B74EF68C8F6631 /* UIView+crashguard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BF2548A37827ED7ED87CC23BFA0F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020607778067253A68A9C29640AC2CFE /* Pods-Crashguard_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5051C187F64B4532125828350E71B83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD692AB6BC5F07D59744710EE6961575 /* PXFileLoggerConfig.m in Sources */,
+				30E0E0ED7D84CE0B64E571E4DC9B1023 /* PXxlogger-dummy.m in Sources */,
+				D5A231F24280D3F379EC7227262C93F8 /* PXXLoggerFileManager.m in Sources */,
+				FD361FF991B81F95F05F8CEE3F76CE15 /* PXXLoggerService.m in Sources */,
+				C09AE94805CEF0D91DB8148E50088DDF /* PXXLogHelper.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C25619165CAE0A4280691F2849489D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Crashguard;
+			target = 54F2FE10832E1C3CEC6AF28D914A1AA2 /* Crashguard */;
+			targetProxy = 9F0186F93DDA655A890B5E9F37752A68 /* PBXContainerItemProxy */;
+		};
+		4170F9D0A987E12F9C2E04881644290D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PXxlogger;
+			target = C3ADA39F4B81CB0A7A87A2CD92543143 /* PXxlogger */;
+			targetProxy = 402E1AEB79FE9964019D7F6E634DA5C2 /* PBXContainerItemProxy */;
+		};
+		E9F14EA75A0C4FE5635B876660DF0579 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Crashguard_Example";
+			target = 6981B3FE8F7E5D4EB4E6207CDA11E9B1 /* Pods-Crashguard_Example */;
+			targetProxy = 797AED4582D45CE14EA25ACFC8AA9EC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E52BEA6DC2D737B2B7E3049D798BA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161B25D8CEBE090E8FA0CA477F50C3F6 /* Pods-Crashguard_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crashguard_Tests/Pods-Crashguard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crashguard_Tests/Pods-Crashguard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2CECD03A4A14077D803ADA60CD567060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E79E04A47B1FF00E8F0B1528EE5BB479 /* Pods-Crashguard_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crashguard_Tests/Pods-Crashguard_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crashguard_Tests/Pods-Crashguard_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4286A4AD02EC938FA567EDA26843BE51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66A551331DB729C4806CD0F8279972B0 /* Crashguard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Crashguard/Crashguard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Crashguard/Crashguard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Crashguard/Crashguard.modulemap";
+				PRODUCT_MODULE_NAME = Crashguard;
+				PRODUCT_NAME = Crashguard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44B8A11BCE226C8B8D797D1D7A262871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD7BC367637C570834CFF84380FF4E1 /* PXxlogger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXxlogger/PXxlogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXxlogger/PXxlogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXxlogger/PXxlogger.modulemap";
+				PRODUCT_MODULE_NAME = PXxlogger;
+				PRODUCT_NAME = PXxlogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55C02B8D0DDB5CAD16FE752D05EF300D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B586009883B237FC9C4B3B6155417EE8 /* Pods-Crashguard_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crashguard_Example/Pods-Crashguard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crashguard_Example/Pods-Crashguard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D9B5015E9CFBA6BE83D7D9C2A326649 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13FBE3DD05E392D83B91827BD9E83D82 /* Crashguard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Crashguard/Crashguard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Crashguard/Crashguard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Crashguard/Crashguard.modulemap";
+				PRODUCT_MODULE_NAME = Crashguard;
+				PRODUCT_NAME = Crashguard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA37C06FF9987FF51745513E443364C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A105F476013C659F2D5E6A3732B3B3E /* PXxlogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PXxlogger/PXxlogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PXxlogger/PXxlogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PXxlogger/PXxlogger.modulemap";
+				PRODUCT_MODULE_NAME = PXxlogger;
+				PRODUCT_NAME = PXxlogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BD7DE18EFCF398D8CFEF0EF1D95DACC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44F42B4D98E11E854BE73ACC5102D297 /* Pods-Crashguard_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Crashguard_Example/Pods-Crashguard_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Crashguard_Example/Pods-Crashguard_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		401CCA8EC8CBCB20EAFFFFB042BD777D /* Build configuration list for PBXNativeTarget "Crashguard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4286A4AD02EC938FA567EDA26843BE51 /* Debug */,
+				9D9B5015E9CFBA6BE83D7D9C2A326649 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4404C80D66DEF177CF8AFC7E43E396 /* Build configuration list for PBXNativeTarget "Pods-Crashguard_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD7DE18EFCF398D8CFEF0EF1D95DACC0 /* Debug */,
+				55C02B8D0DDB5CAD16FE752D05EF300D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA829E2A9A05D15B4B7C5C33013F0E9D /* Build configuration list for PBXNativeTarget "Pods-Crashguard_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E52BEA6DC2D737B2B7E3049D798BA0 /* Debug */,
+				2CECD03A4A14077D803ADA60CD567060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F625F27E8AF0FD870498A6A0250FED93 /* Build configuration list for PBXNativeTarget "PXxlogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B8A11BCE226C8B8D797D1D7A262871 /* Debug */,
+				BA37C06FF9987FF51745513E443364C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
