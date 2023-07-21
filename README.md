@@ -30,8 +30,10 @@ Crashguard is available under the MIT license. See the LICENSE file for more inf
 
 UseAge
     //启动崩溃防护
-    、、、
+ ```
     [MiKiCrashGuard enableCrashGuardInstantly:true];
+```
+
     、、、
     // 设置 ANR 时间，如果主线程卡顿超过 3 秒，输出 ANR
     、、、
