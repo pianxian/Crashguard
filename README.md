@@ -32,19 +32,17 @@ UseAge
     //启动崩溃防护
  ```
     [MiKiCrashGuard enableCrashGuardInstantly:true];
-```
-
-    、、、
+ ```
     // 设置 ANR 时间，如果主线程卡顿超过 3 秒，输出 ANR
-    、、、
+ ```
     [MiKiCrashGuard setStackDetectDuration:3];
-    、、、
-    // 发生 ANR 的回调
-    、、、
+ ```
+   // 发生 ANR 的回调
+ ```
     [MiKiCrashGuard setANRStackDetectCallback:^(NSString *msg) {
       NSLog(msg);
     }];
     [MiKiCrashGuard startANRDetect];
     [MiKiCrashGuard startDispatchOnceDeadLockGuard];
-    、、、
+ ```
 
