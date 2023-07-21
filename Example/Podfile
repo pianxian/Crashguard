@@ -14,7 +14,7 @@ end
 end
 
 target 'Crashguard_Example' do
-  pod 'Crashguard', :path => '../'
+  pod 'PXCrashguard', :path => '../'
   pod 'PXxlogger' #Xlogger日志收集库
   target 'Crashguard_Tests' do
     inherit! :search_paths

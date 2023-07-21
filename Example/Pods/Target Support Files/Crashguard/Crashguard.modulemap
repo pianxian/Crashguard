@@ -1,6 +1,0 @@
-framework module Crashguard {
-  umbrella header "Crashguard-umbrella.h"
-
-  export *
-  module * { export * }
-}

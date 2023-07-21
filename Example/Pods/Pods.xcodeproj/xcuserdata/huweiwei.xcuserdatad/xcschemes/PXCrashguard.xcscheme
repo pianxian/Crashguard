@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "54F2FE10832E1C3CEC6AF28D914A1AA2"
-               BuildableName = "Crashguard.framework"
-               BlueprintName = "Crashguard"
+               BlueprintIdentifier = "3BCBB073FF1842015CF9B45BCF2BC518"
+               BuildableName = "PXCrashguard.framework"
+               BlueprintName = "PXCrashguard"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

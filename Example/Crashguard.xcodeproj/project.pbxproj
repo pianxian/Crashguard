@@ -47,6 +47,7 @@
 		3258FD612A6A8DD6002ECFF3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		3258FD632A6A8DF4002ECFF3 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		3258FD652A6A8E1A002ECFF3 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3258FE392A6AE975002ECFF3 /* PXCrashguard.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = PXCrashguard.podspec; path = ../PXCrashguard.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* Crashguard_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crashguard_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -74,7 +75,6 @@
 		BB83B4E01FB431A92DC37FD8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C329577F7264DE7256EBF7C1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C367477B697501BBBAC3F286 /* Pods-Crashguard_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crashguard_Tests.release.xcconfig"; path = "Target Support Files/Pods-Crashguard_Tests/Pods-Crashguard_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CD036C9000B9A01CCAFEC687 /* Crashguard.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Crashguard.podspec; path = ../Crashguard.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,7 +205,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				CD036C9000B9A01CCAFEC687 /* Crashguard.podspec */,
+				3258FE392A6AE975002ECFF3 /* PXCrashguard.podspec */,
 				BB83B4E01FB431A92DC37FD8 /* README.md */,
 				C329577F7264DE7256EBF7C1 /* LICENSE */,
 			);
@@ -362,12 +362,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Crashguard_Example/Pods-Crashguard_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Crashguard/Crashguard.framework",
+				"${BUILT_PRODUCTS_DIR}/PXCrashguard/PXCrashguard.framework",
 				"${BUILT_PRODUCTS_DIR}/PXxlogger/PXxlogger.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Crashguard.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PXCrashguard.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PXxlogger.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

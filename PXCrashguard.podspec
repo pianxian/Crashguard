@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'Crashguard'
+  s.name             = 'PXCrashguard'
   s.version          = '0.1.0'
   s.summary          = 'A short description of Crashguard.'
 

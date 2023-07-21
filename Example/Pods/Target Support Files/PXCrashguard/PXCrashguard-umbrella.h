@@ -38,6 +38,6 @@
 #import "MiKiCrashGuard.h"
 #import "MikiBacktraceLogger.h"
 
-FOUNDATION_EXPORT double CrashguardVersionNumber;
-FOUNDATION_EXPORT const unsigned char CrashguardVersionString[];
+FOUNDATION_EXPORT double PXCrashguardVersionNumber;
+FOUNDATION_EXPORT const unsigned char PXCrashguardVersionString[];
 
